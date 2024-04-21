@@ -1,0 +1,20 @@
+<%- include("header") -%>
+        <div class="box" id="heading">
+            <h1><em> Enter marks</em></h1>
+        </div>
+        <div >
+            <form class="box" action="/calc_sgpa" method="post">
+                <p><input name="first" placeholder="18mat11/21">
+                <input name="second"  placeholder="18phy12/22"></p>
+               <p> <input name="third"  placeholder="18ele13/23">
+                <input name="fourth"  placeholder="18civ14/24"></p>
+                <p><input name="fifth"  placeholder="18egdl15/25">
+                <input name="sixth"  placeholder="18phyl16/26"></p>
+                <p><input name="seventh"  placeholder="18elel17/27">
+                <input name="eighth"  placeholder="18egh18/28"></p>
+                    <input type="hidden" name="sem" value="1">
+                <button type="submit">calculate</button>
+            </form>
+        </div>
+    </body>
+</html>

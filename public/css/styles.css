@@ -1,0 +1,75 @@
+html {
+    background-color: #E4E9FD;
+    background-image: linear-gradient(to right, #A9F1DF, #FFBBBB);
+    font-family: 'helvetica neue';
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .home{
+    text-align: center;
+  }
+  .reason{
+    margin-top: 10px;
+    font-size: 30px;
+    color:red;
+  }
+  #orient{
+    margin: 20px;
+  }
+  .box {
+    margin: 0px,30px,30px,30px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  #home_head{
+    margin-top: 20px;
+    font-size: 50px;
+    color:black;
+  }
+  #heading {
+    background-image: linear-gradient(to right, #614385, #516395);
+    text-align: center;
+
+  }
+  button {
+    min-height: 50px;
+    width: 340px;
+    border-color: transparent;
+    background-color: #516395;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 30px;
+    margin:5px;
+    border-width: 0;
+  }
+
+  form {
+    flex-direction: column;
+    text-align: center;
+  }
+  input:focus{
+    background-color: transparent;
+  }
+  img{
+    height: 200px;
+    width:200px;
+  }
+  input {
+    text-align: center;
+    min-height: 50px;
+    width: 340px;
+    border-color: black;
+    background: transparent;
+    border-radius: 12px;
+    font-size: 30px;
+    margin: 20px;
+  }  
+  ::placeholder {
+    color: black;
+    opacity: 1;
+  }
